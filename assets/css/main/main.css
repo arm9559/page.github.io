@@ -1,0 +1,1635 @@
+.right-yellow-planet {
+  visibility: hidden;
+}
+
+@font-face {
+  font-family: "Montserrat arm";
+  src: url("../../fonts/montserrat-arm/Montserratarm-Medium.otf");
+}
+.item-cosmo::before {
+  background-image: url("../../images/main/planet-yellow.png");
+  -webkit-animation: rotation 13s infinite linear;
+          animation: rotation 13s infinite linear;
+  background-repeat: no-repeat;
+  background-size: 10.8723958333vw 10.8723958333vw;
+  width: 10.8723958333vw;
+  height: 10.8723958333vw;
+  z-index: -1;
+  content: "";
+  position: absolute;
+  color: black;
+  left: -12.2552083333vw;
+  top: 0vw;
+}
+
+.background-white::before {
+  background-image: url("../../images/main/star-vector.png");
+  -webkit-animation: star 3s infinite linear;
+          animation: star 3s infinite linear;
+  height: 10.54px;
+  width: 118px;
+  content: "";
+  position: absolute;
+  color: white;
+  top: 205px;
+  left: 525px;
+}
+
+.background-white::after {
+  background-image: url("../../images/main/star-vector.png");
+  -webkit-animation: star 3s infinite linear;
+          animation: star 3s infinite linear;
+  height: 10.54px;
+  width: 118px;
+  content: "";
+  position: absolute;
+  color: white;
+  top: 80%;
+  left: 65.7526041667vw;
+}
+
+.main-footer-col-one {
+  z-index: -1 !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+  left: -75px;
+}
+
+main {
+  margin-top: 155px;
+}
+main .main-footer {
+  position: relative;
+  width: 100%;
+  top: -455px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .main-footer .main-footer-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  grid-gap: 155px;
+}
+main .main-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .main-child .item-cosmo {
+  position: relative;
+  top: 55px;
+  position: relative;
+  width: 100%;
+  left: -130px;
+}
+main .main-child .item-cosmo .cosmo-text {
+  font-family: "Montserrat", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 402px;
+  height: 88px;
+  background: #F8F8F8;
+  border-radius: 24px;
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 16px;
+  line-height: 20px;
+  color: #102231;
+}
+main .main-child .item-cosmo .cosmo-text span {
+  position: relative;
+  top: 20px;
+  margin-top: 5px;
+}
+main .main-child .item-cosmo img {
+  position: relative;
+  top: -68px;
+}
+main .main-child .item-cosmo .cosmo-bottom-vector {
+  position: relative;
+  top: 5px;
+  left: 95px;
+}
+main .main-child .background-item {
+  background-image: url("../../images/main/background-for-white.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 866px;
+  margin-top: 85px;
+}
+main .main-child .background-item .background-white {
+  background-image: url("../../images/main/main_vector.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 866px;
+  width: 70.125vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+main .main-child .background-item .background-white .inner {
+  position: relative;
+  top: -105px;
+  left: 2vw;
+  width: 100%;
+}
+main .main-child .background-item .background-white .inner .background-white-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 45.9895833333vw;
+}
+main .main-child .background-item .background-white .inner .background-white-title p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.734375vw;
+  line-height: 3.90625vw;
+  color: #102231;
+}
+main .main-child .background-item .background-white .inner .background-white-title b {
+  color: #4F71C4;
+}
+main .main-child .background-item .background-white .inner .background-white-text p {
+  width: auto !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 3.34375vw;
+  color: #4E565C;
+}
+main .main-child .background-item .background-white .inner .background-white-button {
+  max-width: 544px;
+}
+main .main-child .background-item .background-white .inner .background-white-button .sign-in {
+  width: 544px;
+  height: 11.08033241vh;
+  background: #00BF90;
+  -webkit-box-shadow: 2px 4px 30px rgba(0, 191, 144, 0.3);
+          box-shadow: 2px 4px 30px rgba(0, 191, 144, 0.3);
+  border-radius: 38px;
+  border: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1.3020833333vw;
+  line-height: 24px;
+  color: #F8F8F8;
+}
+
+@media (max-width: 1438px) {
+  .main-footer-col-one {
+    left: -55px;
+    top: -35px;
+  }
+}
+@media (max-width: 1333px) {
+  .main-footer-col-one {
+    left: 55px;
+    top: -55px;
+  }
+}
+@media (max-width: 1242px) {
+  .main-footer-col-one {
+    left: 55px;
+    top: -125px;
+  }
+}
+@media (max-width: 906px) {
+  .main-footer-col-one {
+    top: -175px;
+    left: 85px !important;
+  }
+  .main-footer-col-one .blue-planet {
+    height: 120px;
+  }
+
+  .main-footer-col-two .right-yellow-planet {
+    position: relative;
+    height: 360px !important;
+  }
+}
+@media (max-width: 1328px) {
+  .background-white::before {
+    background-image: url("../../images/main/star-vector.png");
+    height: 10.54px;
+    width: 118px;
+    content: "";
+    position: absolute;
+    color: white;
+    top: 205px;
+    left: 425px;
+  }
+}
+@media (max-width: 819px) {
+  .cosmo-text {
+    left: -125px !important;
+  }
+  .cosmo-text img {
+    margin-left: 35px !important;
+  }
+}
+@media (max-width: 792px) {
+  .main-footer-col-two img {
+    position: relative;
+    margin-left: 0.3vw;
+  }
+}
+@media (min-width: 1600px) {
+  .inner {
+    top: -3.2083333333vw;
+  }
+}
+@media (min-width: 1790px) {
+  .inner {
+    top: -1.2083333333vw !important;
+  }
+}
+@media (min-width: 1904px) {
+  .inner {
+    top: 1.2083333333vw !important;
+  }
+}
+@media (max-width: 1496px) {
+  .inner {
+    top: -135px !important;
+  }
+  .inner .background-white-button button {
+    width: 350px !important;
+  }
+}
+@media (max-width: 1338px) {
+  .item-cosmo {
+    position: relative !important;
+    top: 42px !important;
+  }
+}
+@media (max-width: 1280px) {
+  .item-cosmo {
+    position: relative !important;
+    top: 30px !important;
+  }
+}
+@media (max-width: 1280px) {
+  .item-cosmo {
+    position: relative !important;
+    top: 32px !important;
+  }
+}
+@media (max-width: 1261px) {
+  .inner {
+    top: -170px !important;
+  }
+  .inner .background-white-button button {
+    width: 350px !important;
+  }
+}
+@media (max-width: 1222px) {
+  .background-white::after {
+    background-image: url("../../images/main/star-vector.png");
+    height: 10.54px;
+    width: 118px;
+    content: "";
+    position: absolute;
+    color: white;
+    top: 90%;
+    left: 65.7526041667vw;
+  }
+}
+@media (max-width: 1197px) {
+  .item-cosmo {
+    position: relative !important;
+    top: 15px !important;
+  }
+
+  .background-white::before {
+    background-image: url("../../images/main/star-vector.png");
+    height: 10.54px;
+    width: 118px;
+    content: "";
+    position: absolute;
+    color: white;
+    top: 155px;
+    left: 325px;
+  }
+}
+@media (max-width: 1117px) {
+  .item-cosmo {
+    position: relative !important;
+    top: 1px !important;
+  }
+}
+@media (max-width: 1080px) {
+  .inner {
+    top: -200px !important;
+  }
+  .inner .background-white-button button {
+    width: 350px !important;
+  }
+}
+@media (max-width: 1046px) {
+  .item-cosmo {
+    position: relative;
+    top: -12px !important;
+  }
+
+  .inner {
+    top: -180px !important;
+  }
+  .inner .background-white-title p {
+    font-size: 15px !important;
+  }
+  .inner .background-white-text p {
+    font-size: 12px !important;
+  }
+  .inner .background-white-button button {
+    width: 300px !important;
+    height: 8vh !important;
+  }
+}
+@media (max-width: 989px) {
+  .item-cosmo::before {
+    background-image: url("../../images/main/planet-yellow.png");
+    background-repeat: no-repeat;
+    background-size: 10.8723958333vw 10.8723958333vw;
+    width: 10.8723958333vw;
+    height: 10.8723958333vw;
+    z-index: -1;
+    content: "";
+    position: absolute;
+    color: black;
+    left: -24.2552083333vw;
+    top: 4vw;
+  }
+
+  .background-white::before {
+    background-image: url("../../images/main/star-vector.png");
+    height: 10.54px;
+    width: 118px;
+    content: "";
+    position: absolute;
+    color: white;
+    top: 155px;
+    left: 105px;
+  }
+
+  .item-cosmo {
+    position: relative;
+    top: -22px !important;
+  }
+  .item-cosmo .cosmo-text {
+    position: relative;
+    left: -105px;
+    top: 50px;
+  }
+  .item-cosmo .cosmo-text img {
+    position: relative;
+    left: 155px !important;
+  }
+  .item-cosmo .main-cosmo-pepople {
+    height: 280px;
+    position: relative;
+    left: 45px;
+    top: 15px !important;
+  }
+
+  .inner {
+    top: -235px !important;
+  }
+}
+@media (max-width: 923px) {
+  .item-cosmo {
+    position: relative;
+    top: -22px !important;
+  }
+  .item-cosmo .cosmo-text {
+    position: relative;
+    left: -105px;
+  }
+  .item-cosmo .cosmo-text img {
+    position: relative;
+    left: 155px !important;
+  }
+  .item-cosmo .main-cosmo-pepople {
+    height: 280px;
+    position: relative;
+    left: 45px;
+    top: 2px !important;
+  }
+
+  .inner {
+    top: -235px !important;
+  }
+}
+@media (max-width: 885px) {
+  .item-cosmo {
+    position: relative;
+    top: -22px !important;
+  }
+  .item-cosmo .cosmo-text {
+    position: relative;
+    left: -105px;
+    top: 25px;
+  }
+  .item-cosmo .cosmo-text img {
+    position: relative;
+    left: 155px !important;
+  }
+  .item-cosmo .main-cosmo-pepople {
+    height: 280px;
+    position: relative;
+    left: 45px;
+    top: -4px !important;
+  }
+
+  .inner {
+    top: -235px !important;
+  }
+}
+@media (max-width: 866px) {
+  .background-white::after {
+    background-image: url("../../images/main/star-vector.png");
+    height: 10.54px;
+    width: 118px;
+    content: "";
+    position: absolute;
+    color: white;
+    top: 70%;
+    left: 65.7526041667vw;
+  }
+
+  .inner {
+    top: -250px !important;
+  }
+  .inner .background-white-title p {
+    font-size: 15px !important;
+  }
+  .inner .background-white-text p {
+    font-size: 12px !important;
+  }
+  .inner .background-white-button button {
+    width: 300px !important;
+    height: 4vh !important;
+  }
+}
+@media (max-width: 885px) {
+  .item-cosmo {
+    position: relative;
+    top: -22px !important;
+  }
+  .item-cosmo .cosmo-text {
+    position: relative;
+    left: -105px;
+  }
+  .item-cosmo .cosmo-text img {
+    position: relative;
+    left: 155px !important;
+  }
+  .item-cosmo .main-cosmo-pepople {
+    height: 280px;
+    position: relative;
+    left: 45px;
+    top: -7px !important;
+  }
+
+  .inner {
+    top: -235px !important;
+  }
+}
+@media (max-width: 876px) {
+  .main-footer-col-one .star-vector {
+    height: 10.54;
+    width: 60px;
+  }
+
+  .background-white::after {
+    background-image: url("../../images/main/star-vector.png");
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    height: 10.54px;
+    width: 60px;
+    content: "";
+    position: absolute;
+    color: white;
+    top: 70%;
+    left: 65.7526041667vw;
+  }
+
+  .background-white::before {
+    background-image: url("../../images/main/star-vector.png");
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    height: 10.54px;
+    width: 60px;
+    content: "";
+    position: absolute;
+    color: white;
+    top: 155px;
+    left: 15px;
+  }
+
+  .item-cosmo::before {
+    background-image: url("../../images/main/planet-yellow.png");
+    background-repeat: no-repeat;
+    background-size: 10.8723958333vw 10.8723958333vw;
+    width: 10.8723958333vw;
+    height: 10.8723958333vw;
+    z-index: -1;
+    content: "";
+    position: absolute;
+    color: black;
+    left: -32.2552083333vw;
+    top: 4vw;
+  }
+
+  .cosmo-text {
+    margin-left: -35px !important;
+    position: relative !important;
+    top: 15px !important;
+  }
+}
+@media (max-width: 848px) {
+  .item-cosmo {
+    position: relative;
+    top: -22px !important;
+  }
+  .item-cosmo .cosmo-text {
+    position: relative;
+    left: -105px;
+  }
+  .item-cosmo .cosmo-text img {
+    position: relative;
+    left: 155px !important;
+  }
+  .item-cosmo .main-cosmo-pepople {
+    height: 280px;
+    position: relative;
+    left: 45px;
+    top: -14px !important;
+  }
+
+  .inner {
+    top: -265px !important;
+  }
+}
+@media (max-width: 798px) {
+  .main-footer {
+    position: relative;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main-footer .main-footer-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 100%;
+    grid-gap: 155px;
+  }
+  .main-footer .main-footer-child .main-footer-col-one {
+    top: -195px !important;
+  }
+
+  .item-cosmo {
+    position: relative;
+    top: -22px !important;
+  }
+  .item-cosmo .cosmo-text {
+    position: relative;
+    left: -105px;
+  }
+  .item-cosmo .cosmo-text img {
+    position: relative;
+    left: 155px !important;
+  }
+  .item-cosmo .main-cosmo-pepople {
+    height: 280px;
+    position: relative;
+    left: 45px;
+    top: -22px !important;
+  }
+
+  .inner {
+    top: -265px !important;
+  }
+}
+@media (max-width: 664px) {
+  .main-footer-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 100%;
+    grid-gap: 155px;
+  }
+  .main-footer-child .main-footer-col-one {
+    margin-top: -55px !important;
+    left: 155px !important;
+  }
+}
+@media (max-width: 824px) {
+  .inner {
+    top: -260px !important;
+  }
+  .inner .background-white-title p {
+    font-size: 15px !important;
+  }
+  .inner .background-white-text p {
+    font-size: 12px !important;
+  }
+  .inner .background-white-button button {
+    width: 200px !important;
+    height: 4vh !important;
+  }
+}
+@media (max-width: 759px) {
+  .item-cosmo {
+    position: relative;
+    top: -22px !important;
+  }
+  .item-cosmo .cosmo-text {
+    position: relative;
+    left: -105px;
+    top: 3.5px !important;
+  }
+  .item-cosmo .cosmo-text img {
+    position: relative;
+    left: 155px !important;
+    top: 2px !important;
+  }
+  .item-cosmo .main-cosmo-pepople {
+    height: 280px;
+    position: relative;
+    left: 45px;
+    top: -30px !important;
+  }
+
+  .inner {
+    top: -265px !important;
+  }
+}
+@media (max-width: 759px) {
+  .item-cosmo {
+    position: relative;
+    top: -22px !important;
+  }
+  .item-cosmo .cosmo-text {
+    position: relative;
+    left: -105px;
+  }
+  .item-cosmo .cosmo-text img {
+    position: relative;
+    left: 155px !important;
+  }
+  .item-cosmo .main-cosmo-pepople {
+    height: 280px;
+    position: relative;
+    left: 45px;
+    top: -35px !important;
+  }
+
+  .inner {
+    top: -265px !important;
+  }
+  .inner .background-white-text {
+    width: 250px !important;
+  }
+  .inner .background-white-text p {
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 741px) {
+  .item-cosmo::before {
+    background-image: url("../../images/main/planet-yellow.png");
+    background-repeat: no-repeat;
+    background-size: 10.8723958333vw 10.8723958333vw;
+    width: 10.8723958333vw;
+    height: 10.8723958333vw;
+    z-index: -1;
+    content: "";
+    position: absolute;
+    color: black;
+    left: -12.2552083333vw;
+    top: 1vw;
+  }
+
+  .cosmo-text {
+    position: relative !important;
+    left: 55px !important;
+    width: 250px !important;
+    top: 15px !important;
+  }
+  .cosmo-text span p {
+    font-size: 12px;
+  }
+
+  .cosmo-text img {
+    margin-left: -125px !important;
+  }
+}
+@media (max-width: 550px) {
+  .main-footer-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 100%;
+    grid-gap: 155px;
+  }
+  .main-footer-child .main-footer-col-one {
+    left: 105px !important;
+  }
+}
+@media (max-width: 484px) {
+  .main-footer-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 100%;
+    grid-gap: 155px;
+  }
+  .main-footer-child .main-footer-col-one {
+    margin-top: -95px !important;
+    left: 185px !important;
+  }
+}
+@media (max-width: 695px) {
+  .background-white::after {
+    background-image: url("../../images/main/star-vector.png");
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    height: 10.54px;
+    width: 60px;
+    content: "";
+    position: absolute;
+    color: white;
+    top: 60%;
+    left: 65.7526041667vw;
+  }
+
+  .inner {
+    top: -270px !important;
+  }
+  .inner .background-white-title p {
+    font-size: 15px !important;
+  }
+  .inner .background-white-text {
+    width: 250px !important;
+  }
+  .inner .background-white-text p {
+    font-size: 12px !important;
+  }
+  .inner .background-white-button button {
+    width: 200px !important;
+    height: 4vh !important;
+  }
+}
+@media (max-width: 680px) {
+  .item-cosmo {
+    position: relative;
+    top: -22px !important;
+  }
+  .item-cosmo .cosmo-text {
+    position: relative;
+    left: -105px;
+  }
+  .item-cosmo .cosmo-text img {
+    position: relative;
+    left: 155px !important;
+  }
+  .item-cosmo .main-cosmo-pepople {
+    height: 280px;
+    position: relative;
+    left: 45px;
+    top: -45px !important;
+  }
+
+  .inner {
+    top: -275px !important;
+  }
+  .inner .background-white-text {
+    width: 250px !important;
+  }
+  .inner .background-white-text p {
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 637px) {
+  .item-cosmo::before {
+    background-image: url("../../images/main/planet-yellow.png");
+    background-repeat: no-repeat;
+    background-size: 10.8723958333vw 10.8723958333vw;
+    width: 10.8723958333vw;
+    height: 10.8723958333vw;
+    z-index: -1;
+    content: "";
+    position: absolute;
+    color: black;
+    left: -12.2552083333vw;
+    top: 6vw;
+  }
+
+  .item-cosmo {
+    position: relative;
+    top: -22px !important;
+  }
+  .item-cosmo .cosmo-text {
+    position: relative;
+    left: -105px;
+    top: 22px !important;
+  }
+  .item-cosmo .cosmo-text img {
+    position: relative;
+    left: 105px !important;
+  }
+  .item-cosmo .main-cosmo-pepople {
+    height: 200px;
+    position: relative;
+    left: 45px;
+    top: 5px !important;
+  }
+
+  .inner {
+    top: -280px !important;
+  }
+  .inner .background-white-title p {
+    font-size: 10px !important;
+  }
+  .inner .background-white-text {
+    width: 250px !important;
+    position: relative;
+    top: -20px;
+  }
+  .inner .background-white-text p {
+    font-size: 9px !important;
+  }
+  .inner .background-white-button {
+    position: relative;
+    top: -25px;
+  }
+  .inner .background-white-button button {
+    width: 200px !important;
+    height: 4vh !important;
+  }
+}
+@media (max-width: 588px) {
+  .main-cosmo-pepople {
+    height: 200px;
+    position: relative;
+    left: 15px !important;
+    top: -15px !important;
+  }
+
+  .cosmo-text img {
+    position: relative !important;
+    margin-right: 125px !important;
+  }
+}
+@media (max-width: 588px) {
+  .item-cosmo {
+    position: relative;
+    top: -22px !important;
+  }
+  .item-cosmo .cosmo-text {
+    position: relative;
+    left: -105px;
+  }
+  .item-cosmo .cosmo-text img {
+    position: relative;
+    left: 155px !important;
+  }
+  .item-cosmo .main-cosmo-pepople {
+    height: 200px;
+    position: relative;
+    left: 45px;
+    top: 5px !important;
+  }
+
+  .inner {
+    top: -295px !important;
+  }
+  .inner .background-white-title p {
+    font-size: 10px !important;
+  }
+  .inner .background-white-text {
+    width: 250px !important;
+    position: relative;
+    top: -20px;
+  }
+  .inner .background-white-text p {
+    font-size: 9px !important;
+  }
+  .inner .background-white-button {
+    position: relative;
+    top: -25px;
+  }
+  .inner .background-white-button button {
+    width: 200px !important;
+    height: 4vh !important;
+  }
+}
+@media (max-width: 598px) {
+  .cosmo-text {
+    height: 70px !important;
+  }
+
+  .cosmo-text img {
+    position: relative !important;
+    margin-left: -115px !important;
+  }
+
+  .main-cosmo-pepople {
+    height: 200px;
+    position: relative;
+    margin-left: 15px !important;
+    margin-top: 10px !important;
+  }
+}
+@media (max-width: 570px) {
+  .background-white-button {
+    position: relative;
+    top: -25px;
+  }
+  .background-white-button button {
+    width: 10px !important;
+    height: 4vh !important;
+  }
+
+  .inner {
+    left: 0px !important;
+  }
+}
+@media (max-width: 557px) {
+  .main-cosmo-pepople {
+    height: 200px;
+    position: relative;
+    margin-left: 55px !important;
+    margin-top: 10px !important;
+  }
+}
+@media (max-width: 551px) {
+  .inner {
+    top: -300px !important;
+  }
+  .inner .background-white-title p {
+    font-size: 10px !important;
+  }
+  .inner .background-white-text {
+    width: 250px !important;
+    position: relative;
+    top: -20px;
+  }
+  .inner .background-white-text p {
+    font-size: 9px !important;
+  }
+  .inner .background-white-button {
+    position: relative;
+    top: -25px;
+  }
+  .inner .background-white-button button {
+    width: 150px !important;
+    height: 3vh !important;
+  }
+}
+@media (max-width: 558px) {
+  .cosmo-text {
+    height: 70px !important;
+    margin-left: -55px !important;
+    margin-top: -5px !important;
+  }
+  .cosmo-text img {
+    margin-left: -25px !important;
+  }
+
+  .main-cosmo-pepople {
+    height: 200px;
+    position: relative;
+    left: 15px !important;
+    margin-top: 10px !important;
+  }
+}
+@media (max-width: 536px) {
+  .cosmo-text {
+    height: 70px !important;
+    margin-left: -55px !important;
+    margin-top: 1px !important;
+    position: relative !important;
+  }
+  .cosmo-text img {
+    margin-left: -10px !important;
+  }
+
+  .main-cosmo-pepople {
+    margin-top: 0px !important;
+    margin-left: 55px;
+    margin-top: -5px !important;
+  }
+}
+@media (max-width: 510px) {
+  .main-cosmo-pepople {
+    margin-top: -13px !important;
+    margin-left: 55px;
+  }
+}
+@media (max-width: 463px) {
+  .inner {
+    left: 2px !important;
+  }
+}
+@media (max-width: 476px) {
+  .item-cosmo::before {
+    background-image: url("../../images/main/planet-yellow.png");
+    background-repeat: no-repeat;
+    background-size: 10.8723958333vw 10.8723958333vw;
+    width: 10.8723958333vw;
+    height: 10.8723958333vw;
+    z-index: -1;
+    content: "";
+    position: absolute;
+    color: black;
+    left: -14.2552083333vw;
+    top: 6vw;
+  }
+
+  .main-cosmo-pepople {
+    height: 150px !important;
+    position: relative !important;
+    margin-left: 65px !important;
+    margin-top: 44px !important;
+    top: 38px !important;
+  }
+
+  .cosmo-text {
+    position: relative !important;
+    width: 250px !important;
+    left: 45px !important;
+    height: 45px !important;
+    top: 125px !important;
+  }
+  .cosmo-text img {
+    margin-left: -15px !important;
+  }
+  .cosmo-text span p {
+    font-size: 10px;
+    line-height: 0px;
+  }
+
+  .inner {
+    top: -310px !important;
+  }
+  .inner .background-white-title p {
+    font-size: 10px !important;
+  }
+  .inner .background-white-text {
+    width: 250px !important;
+    position: relative;
+    top: -20px;
+  }
+  .inner .background-white-text p {
+    font-size: 10px !important;
+  }
+  .inner .background-white-text .to-top-paragraph {
+    margin-top: -14px;
+  }
+  .inner .background-white-button {
+    position: relative;
+    top: -25px;
+  }
+  .inner .background-white-button button {
+    width: 35vw !important;
+    height: 4vh !important;
+    font-size: 8px !important;
+  }
+}
+@media (max-width: 461px) {
+  .main-cosmo-pepople {
+    height: 200px;
+    position: relative;
+    margin-left: 55px !important;
+  }
+}
+@media (max-width: 461px) {
+  .main-cosmo-pepople {
+    height: 200px;
+    position: relative !important;
+    margin-left: 55px !important;
+    margin-top: 16px !important;
+  }
+}
+@media (max-width: 444px) {
+  .background-white::after {
+    background-image: url("../../images/main/star-vector.png");
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    height: 10.54px;
+    width: 60px;
+    content: "";
+    position: relative;
+    color: white;
+    top: -38%;
+    left: 65.7526041667vw;
+  }
+}
+@media (max-width: 632px) {
+  .main-footer-col-two {
+    position: relative !important;
+    top: -155px !important;
+  }
+}
+@media (max-width: 449px) {
+  .main-cosmo-pepople {
+    height: 200px;
+    position: relative !important;
+    margin-left: 55px !important;
+    margin-top: 15px !important;
+  }
+}
+@media (max-width: 437px) {
+  .inner {
+    top: -320px !important;
+  }
+  .inner .background-white-title p {
+    font-size: 10px !important;
+  }
+  .inner .background-white-text {
+    width: 250px !important;
+    position: relative;
+    top: -20px;
+  }
+  .inner .background-white-text p {
+    font-size: 10px !important;
+  }
+  .inner .background-white-button {
+    position: relative;
+    top: -25px;
+  }
+  .inner .background-white-button button {
+    width: 35vw !important;
+    height: 4vh !important;
+    font-size: 8px !important;
+  }
+}
+@media (max-width: 417px) {
+  .cosmo-text {
+    width: 250px !important;
+    margin-top: 35px !important;
+  }
+  .cosmo-text span p {
+    font-size: 8px;
+  }
+
+  .inner {
+    top: -320px !important;
+  }
+  .inner .background-white-title p {
+    font-size: 8px !important;
+  }
+  .inner .background-white-text {
+    width: 250px !important;
+    position: relative;
+    top: -20px;
+  }
+  .inner .background-white-text p {
+    font-size: 8px !important;
+  }
+  .inner .background-white-button {
+    position: relative;
+    top: -35px;
+  }
+  .inner .background-white-button button {
+    width: 35vw !important;
+    height: 4vh !important;
+    font-size: 6px !important;
+  }
+
+  .main-cosmo-pepople {
+    height: 200px;
+    position: relative !important;
+    margin-left: 70px !important;
+    margin-top: 0.5px !important;
+  }
+}
+@media (max-width: 413px) {
+  .main-cosmo-pepople {
+    height: 200px;
+    position: relative !important;
+    margin-left: 70px !important;
+    margin-top: 18px !important;
+  }
+
+  .cosmo-text {
+    margin-top: 14px !important;
+  }
+}
+@media (max-width: 401px) {
+  .main-cosmo-pepople {
+    height: 200px;
+    position: relative !important;
+    margin-left: 70px !important;
+    margin-top: 12px !important;
+  }
+
+  .cosmo-text {
+    margin-top: 18px !important;
+  }
+}
+@media (max-width: 395px) {
+  .inner {
+    margin-top: -15px !important;
+  }
+  .inner .background-white-title p {
+    font-size: 8px !important;
+  }
+  .inner .background-white-text {
+    width: 250px !important;
+    position: relative;
+    top: -20px;
+  }
+  .inner .background-white-text p {
+    font-size: 8px !important;
+  }
+  .inner .background-white-button {
+    position: relative;
+    top: -35px;
+  }
+  .inner .background-white-button button {
+    width: 35vw !important;
+    height: 4vh !important;
+    font-size: 6px !important;
+  }
+}
+@media (max-width: 388px) {
+  .item-cosmo::before {
+    background-image: url("../../images/main/planet-yellow.png");
+    background-repeat: no-repeat;
+    background-size: 10.8723958333vw 10.8723958333vw;
+    width: 10.8723958333vw;
+    height: 10.8723958333vw;
+    z-index: -1;
+    content: "";
+    position: absolute;
+    color: black;
+    left: 22.2552083333vw !important;
+    top: 130px !important;
+  }
+
+  .cosmo-text {
+    left: 25px !important;
+  }
+  .cosmo-text img {
+    margin-left: 5px !important;
+    margin-top: -8px !important;
+  }
+}
+@media (max-width: 406px) {
+  .inner {
+    top: -320px !important;
+  }
+  .inner .background-white-title p {
+    font-size: 8px !important;
+  }
+  .inner .background-white-text {
+    width: 200px !important;
+    position: relative;
+    top: -12px;
+  }
+  .inner .background-white-text p {
+    font-size: 8px !important;
+  }
+  .inner .background-white-button {
+    position: relative;
+    top: -25px;
+    left: -2px !important;
+  }
+  .inner .background-white-button button {
+    width: 140px !important;
+    height: 4vh !important;
+    font-size: 8px !important;
+  }
+}
+@media (max-width: 389px) {
+  .main-cosmo-pepople {
+    height: 150px !important;
+    position: relative;
+    margin-left: 75px !important;
+  }
+
+  .cosmo-text p {
+    position: relative !important;
+    top: -5px !important;
+  }
+  .cosmo-text img {
+    top: -45px !important;
+  }
+
+  .inner {
+    top: -323px !important;
+  }
+  .inner .background-white-title p {
+    font-size: 8px !important;
+  }
+  .inner .background-white-text {
+    width: 200px !important;
+    position: relative;
+    top: -12px;
+  }
+  .inner .background-white-text p {
+    font-size: 8px !important;
+  }
+  .inner .background-white-button {
+    position: relative;
+    top: -25px;
+  }
+  .inner .background-white-button button {
+    width: 140px !important;
+    height: 4vh !important;
+    font-size: 8px !important;
+  }
+}
+@media (max-width: 368px) {
+  .background-white::before {
+    margin-top: 23px !important;
+  }
+
+  .item-cosmo::before {
+    background-image: url("../../images/main/planet-yellow.png");
+    background-repeat: no-repeat;
+    background-size: 10.8723958333vw 10.8723958333vw;
+    width: 10.8723958333vw;
+    height: 10.8723958333vw;
+    z-index: -1;
+    content: "";
+    position: absolute;
+    color: black;
+    left: 22.2552083333vw !important;
+    top: 130px !important;
+  }
+
+  .cosmo-text {
+    width: 175px !important;
+    margin-left: 5px !important;
+    text-align: center !important;
+  }
+  .cosmo-text span {
+    position: relative !important;
+  }
+  .cosmo-text img {
+    position: relative !important;
+    width: 20px !important;
+    position: relative !important;
+    margin-right: 175px !important;
+  }
+  .cosmo-text .inner .background-white-button {
+    position: relative !important;
+    margin-top: -55px !important;
+    font-size: 6px !important;
+    margin-bottom: 10px !important;
+  }
+  .cosmo-text .inner .background-white-button button {
+    position: relative !important;
+    margin-top: -15px !important;
+    font-size: 6px !important;
+    margin-bottom: 10px !important;
+  }
+}
+@media (max-width: 575px) {
+  .background-white::after {
+    margin-left: 25px !important;
+  }
+}
+@media (max-width: 580px) {
+  .main-footer-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 100%;
+    grid-gap: 155px;
+  }
+  .main-footer-child .main-footer-col-one .blue-planet {
+    height: 95px !important;
+  }
+}
+@media (max-width: 379px) {
+  .main-footer-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 100%;
+    grid-gap: 155px;
+  }
+  .main-footer-child .main-footer-col-one {
+    margin-top: -125px !important;
+    left: 225px !important;
+  }
+}
+@media (max-width: 376px) {
+  .main-cosmo-pepople {
+    height: 150px !important;
+    position: relative;
+    margin-left: 75px !important;
+    margin-top: 5px !important;
+  }
+
+  .cosmo-text img {
+    height: 22px !important;
+    margin-left: 1px !important;
+    margin-top: -5px !important;
+    position: relative !important;
+  }
+
+  .inner {
+    top: -325px !important;
+  }
+  .inner .to-top-paragraph {
+    position: relative;
+    top: -15px;
+  }
+  .inner .background-white-title p {
+    font-size: 8px !important;
+  }
+  .inner .background-white-text {
+    width: 200px !important;
+    position: relative;
+  }
+  .inner .background-white-text p {
+    font-size: 8px !important;
+  }
+  .inner .background-white-text .to-top-paragraph {
+    position: relative !important;
+    top: 2px !important;
+  }
+  .inner .background-white-button {
+    position: relative;
+    top: -25px;
+  }
+  .inner .background-white-button button {
+    width: 100px !important;
+    height: 4vh !important;
+    font-size: 5px !important;
+  }
+}
+@media (max-width: 357px) {
+  .main-cosmo-pepople {
+    height: 200px;
+    position: relative;
+    margin-left: 75px !important;
+    margin-top: 1px !important;
+  }
+}
+@media (max-width: 344px) {
+  .main-cosmo-pepople {
+    height: 150px !important;
+    position: relative;
+    margin-top: 1px !important;
+    margin-left: 45px !important;
+  }
+
+  .inner {
+    top: -330px !important;
+  }
+  .inner .background-white-title p {
+    font-size: 8px !important;
+  }
+  .inner .background-white-text {
+    width: 200px !important;
+    position: relative;
+    top: -12px;
+  }
+  .inner .background-white-text p {
+    font-size: 9px !important;
+  }
+  .inner .background-white-button {
+    position: relative;
+    top: -25px;
+  }
+  .inner .background-white-button button {
+    width: 100px !important;
+    height: 4vh !important;
+  }
+}
+@media (max-width: 338px) {
+  .main-cosmo-pepople {
+    height: 150px !important;
+    position: relative;
+    margin-top: -2px !important;
+    margin-left: 45px !important;
+  }
+}
+@media (max-width: 329px) {
+  .main-cosmo-pepople {
+    position: relative !important;
+    top: -15px !important;
+  }
+
+  .inner {
+    top: -332px !important;
+  }
+  .inner .background-white-title p {
+    font-size: 8px !important;
+  }
+  .inner .background-white-text {
+    width: 200px !important;
+    position: relative;
+    top: -12px;
+  }
+  .inner .background-white-text p {
+    font-size: 9px !important;
+  }
+  .inner .background-white-button {
+    position: relative;
+    top: -20px;
+  }
+  .inner .background-white-button button {
+    width: 100px !important;
+    height: 4vh !important;
+  }
+}
+/* Mobile Adaptive */
+@media (max-width: 475px) {
+  .cosmo-text {
+    font-weight: bold !important;
+    font-size: 15px !important;
+  }
+}

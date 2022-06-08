@@ -1,0 +1,218 @@
+.why-attend-in-class {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.why-attend-in-class .section-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.why-attend-in-class .why-attend-in-class-items {
+  margin-top: 48.7px;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 236px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.why-attend-in-class .why-attend-in-class-items .star {
+  position: absolute;
+  top: 100%;
+  left: 35%;
+}
+.why-attend-in-class .why-attend-in-class-items .cosmo-people {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.why-attend-in-class .why-attend-in-class-items .cosmo-people button {
+  margin-top: 24px;
+  width: 402px;
+  height: 80px;
+  background: #4472CA;
+  -webkit-box-shadow: 0px 10px 20px rgba(68, 114, 202, 0.3);
+          box-shadow: 0px 10px 20px rgba(68, 114, 202, 0.3);
+  border-radius: 50px;
+  border: none;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.why-attend-in-class .why-attend-in-class-items .cosmo-items .item {
+  width: 544px;
+  height: auto;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 23.3px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+.why-attend-in-class .why-attend-in-class-items .cosmo-items .item span {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 16px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 448px;
+  margin-top: 12px;
+}
+.why-attend-in-class .why-attend-in-class-items .cosmo-items .item span p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  color: #EFEFEF;
+}
+.why-attend-in-class .why-attend-in-class-items .cosmo-items .item:nth-child(odd) {
+  margin-left: -55px;
+}
+
+@media (max-width: 1497px) {
+  .why-attend-in-class {
+    width: 50%;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .why-attend-in-class .col-1 {
+    position: relative;
+    top: -405px;
+  }
+  .why-attend-in-class .why-attend-in-class-child {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .why-attend-in-class .cosmo-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    grid-gap: 25px;
+    margin-top: -164px !important;
+  }
+  .why-attend-in-class .item {
+    margin: 0px !important;
+    grid-gap: 5px !important;
+    width: 85.4166666667vw !important;
+    height: 156px !important;
+    padding: 15px !important;
+  }
+  .why-attend-in-class .item span {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+            justify-content: space-between !important;
+    width: 100% !important;
+  }
+  .why-attend-in-class .item:nth-child(even) {
+    margin-left: 0px !important;
+  }
+}
+@media (max-width: 1310px) {
+  .why-attend-in-class {
+    position: relative !important;
+    top: 150px !important;
+  }
+}
+@media (max-width: 769px) {
+  .why-attend-in-class {
+    position: relative !important;
+    top: -150px !important;
+  }
+
+  .cosmo-people img {
+    height: 375px !important;
+  }
+  .cosmo-people button {
+    height: 55px !important;
+  }
+}
+@media (max-width: 453px) {
+  .why-attend-in-class {
+    position: relative !important;
+    top: -380px !important;
+  }
+  .why-attend-in-class .why-attend-in-class-child {
+    margin-top: 65px;
+  }
+}
+@media (max-width: 450px) {
+  .cosmo-people img {
+    height: 375px !important;
+  }
+  .cosmo-people button {
+    width: 205px !important;
+    height: 55px !important;
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 381px) {
+  .cosmo-items span img {
+    margin-top: 12px;
+    height: 30px !important;
+  }
+}
